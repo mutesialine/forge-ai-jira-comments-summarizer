@@ -7,12 +7,12 @@ modules:
   function:
     - key: main
       handler: index.run
-      permissions:
+permissions:
   scopes:
-    - 'read:jira-work'
+    - "read:jira-work"
   external:
     fetch:
       backend:
-        - 'api.openai.com'
+        - "api.openai.com"
 app:
   id: ari:cloud:ecosystem::app/634f11bf-ec07-4499-8fb8-37564756fa00
